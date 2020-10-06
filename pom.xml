@@ -17,7 +17,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- Maven plugins -->
         <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
-        <tor-binary.version>0.4.3.8</tor-binary.version>
+        <tor-binary.version>upgrade-tor-9.5.4-f3bc31f219-1</tor-binary.version>
         <force-update-tor-binaries>false</force-update-tor-binaries>
     </properties>
 
@@ -62,7 +62,7 @@
                 <artifactId>exists-maven-plugin</artifactId>
                 <version>0.0.6</version>
                 <configuration>
-                    <project>com.github.JesusMcCloud:tor-binary-windows:${tor-binary.version}</project>
+                    <project>com.github.cd2357.tor-binary:tor-binary-windows:${tor-binary.version}</project>
                     <artifact>tor-binary-windows-${tor-binary.version}.pom</artifact>
                     <property>tor-binary-exists</property>
                     <skip>${force-update-tor-binaries}</skip>

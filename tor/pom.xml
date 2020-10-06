@@ -16,9 +16,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.github.JesusMcCloud</groupId>
+            <groupId>com.github.cd2357.tor-binary</groupId>
             <artifactId>tor-binary-geoip</artifactId>
-            <version>0.4.3.8</version>
+            <version>${tor-binary.version}</version>
         </dependency>
         <dependency>
             <groupId>com.github.JesusMcCloud</groupId>
