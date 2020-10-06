@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.berndpruenster.netlayer</groupId>
         <artifactId>parent</artifactId>
-        <version>0.4.9-pre</version>
+        <version>0.6.9-pre</version>
     </parent>
 
     <artifactId>tor</artifactId>
@@ -16,9 +16,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.cedricwalter</groupId>
+            <groupId>com.github.JesusMcCloud</groupId>
             <artifactId>tor-binary-geoip</artifactId>
-            <version>${tor-binary.version}</version>
+            <version>0.4.3.8</version>
         </dependency>
         <dependency>
             <groupId>com.github.JesusMcCloud</groupId>

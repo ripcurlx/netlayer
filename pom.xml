@@ -5,7 +5,7 @@
 
     <groupId>org.berndpruenster.netlayer</groupId>
     <artifactId>parent</artifactId>
-    <version>0.4.9-pre</version>
+    <version>0.6.9-pre</version>
     <packaging>pom</packaging>
 
     <name>Netlayer</name>
@@ -17,7 +17,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- Maven plugins -->
         <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
-        <tor-binary.version>8.0.3</tor-binary.version>
+        <tor-binary.version>0.4.3.8</tor-binary.version>
         <force-update-tor-binaries>false</force-update-tor-binaries>
     </properties>
 
@@ -62,7 +62,7 @@
                 <artifactId>exists-maven-plugin</artifactId>
                 <version>0.0.6</version>
                 <configuration>
-                    <project>com.cedricwalter:tor-binary-windows:${tor-binary.version}</project>
+                    <project>com.github.JesusMcCloud:tor-binary-windows:${tor-binary.version}</project>
                     <artifact>tor-binary-windows-${tor-binary.version}.pom</artifact>
                     <property>tor-binary-exists</property>
                     <skip>${force-update-tor-binaries}</skip>
